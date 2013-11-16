@@ -1,0 +1,44 @@
+[user]
+    name = Peter van der Does
+    email = github@avirtualhome.com
+
+[alias]
+    co = checkout
+    lt = describe --tags --abbrev=0
+
+[core]
+    excludesfile = <%= ENV['HOME'] %>/.gitglobalexclude
+    editor = vim
+    autocrlf = input
+
+[apply]
+    whitespace = nowarn
+
+[format]
+    pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+
+[color "branch"]
+    current = yellow
+    local = blue
+    remote = green
+  
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+[gui]
+    fontui = -family \"Droid Sans\" -size 8 -weight normal -slant roman -underline 0 -overstrike 0
+    fontdiff = -family \"Droid Sans Mono\" -size 8 -weight normal -slant roman -underline 0 -overstrike 0
+

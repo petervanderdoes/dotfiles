@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/pdoes/.dotfiles/vim/autoload/fuf'
+let g:netrw_dirhist_2='/etc/mysql'
+let g:netrw_dirhist_3='/d1/development/wordpress/avh_plugins/avh-clean/wp-deploy/config/deploy'
+let g:netrw_dirhist_4='/d1/development/wordpress/avh_plugins/avh-clean/wp-deploy/config'
+let g:netrw_dirhist_5='/d1/development/wordpress/avh_plugins/avh-clean/wp-deploy/config/deploy'

@@ -1,0 +1,2 @@
+alias root='sudo su -'
+alias z='nocorrect z'
