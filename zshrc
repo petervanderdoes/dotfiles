@@ -14,6 +14,9 @@ export DEBEMAIL='peter@avirtualhome.com'
 export AUTHOR='Peter van der Does'
 export EMAIL='peter@avirtualhome.com'
 
+# WordPress Develop
+export WP_DEVELOP_DIR=/opt/unittesting/wordpress
+
 # GPG
 export GPGKEY=E8530D1E
 
