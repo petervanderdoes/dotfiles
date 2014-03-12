@@ -1,4 +1,4 @@
-[1] https://github.com/ryanb/dotfiles
+[1]: https://github.com/ryanb/dotfiles
 
 # Peter van der Does dotfiles
 
