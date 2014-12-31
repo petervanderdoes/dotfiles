@@ -20,6 +20,11 @@ export WP_DEVELOP_DIR=/opt/unittesting/wordpress
 # GPG
 export GPGKEY=E8530D1E
 
+#GoLang
+export GOROOT=/opt/golang/go
+export GOPATH=/d1/development/golang
+export PATH=$PATH:$GOROOT/bin
+
 source ~/.aliases
 
 source $ZSH/oh-my-zsh.sh
