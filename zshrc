@@ -2,7 +2,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="avh"
 DISABLE_AUTO_UPDATE="true"
 
-plugins=(gem rbenv z gpg-agent git-flow-avh common-aliases vagrant golang)
+plugins=(gem rbenv z gpg-agent git-flow-avh common-aliases vagrant golang composer)
 
 export PATH="/usr/local/bin:$PATH"
 export EDITOR='vim'
@@ -25,6 +25,8 @@ export GOROOT=/opt/golang/go
 export GOPATH=/d1/development/golang
 export PATH=$PATH:$GOROOT/bin
 
+#Composer
+export PATH=~/.composer/vendor/bin:$PATH
 source ~/.aliases
 
 source $ZSH/oh-my-zsh.sh
