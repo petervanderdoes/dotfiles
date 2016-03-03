@@ -4,7 +4,8 @@ DISABLE_AUTO_UPDATE="true"
 
 plugins=(gem rbenv z gpg-agent git-flow-avh common-aliases vagrant)
 
-export PATH="/home/pdoes/.composer/vendor/bin;/usr/local/bin:$PATH"
+export PATH="${HOME}/.composer/vendor/bin:/usr/local/bin:$PATH"
+
 export EDITOR='vim'
 export TERM=xterm-256color
 
