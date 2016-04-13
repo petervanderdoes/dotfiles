@@ -1,6 +1,7 @@
 [user]
     name = Peter van der Does
     email = github@avirtualhome.com
+    signingkey = 29592B23
 
 [alias]
     co = checkout
@@ -10,7 +11,10 @@
     excludesfile = <%= ENV['HOME'] %>/.gitglobalexclude
     editor = vim
     autocrlf = input
-    
+
+[commit]
+    gpgsign = true
+
 [push]
    default = simple
 

@@ -19,7 +19,7 @@ export EMAIL='peter@avirtualhome.com'
 export WP_DEVELOP_DIR=/opt/unittesting/wordpress
 
 # GPG
-export GPGKEY=E8530D1E
+export GPGKEY=29592B23
 
 source ~/.aliases
 
