@@ -1,6 +1,7 @@
 [user]
     name = Peter van der Does
     email = github@avirtualhome.com
+    signingkey = 29592B23
 
 [alias]
     co = checkout
@@ -10,7 +11,10 @@
     excludesfile = <%= ENV['HOME'] %>/.gitglobalexclude
     editor = vim
     autocrlf = input
-    
+
+[commit]
+    gpgsign = true
+
 [push]
    default = simple
 
@@ -41,7 +45,10 @@
     changed = green
     untracked = cyan
 
+[merge]
+    ff = false
+
 [gui]
-    fontui = -family \"Droid Sans\" -size 8 -weight normal -slant roman -underline 0 -overstrike 0
-    fontdiff = -family \"Droid Sans Mono\" -size 8 -weight normal -slant roman -underline 0 -overstrike 0
+    fontui = -family Hack -size 9 -weight normal -slant roman -underline 0 -overstrike 0 
+    fontdiff = -family Hack -size 9 -weight normal -slant roman -underline 0 -overstrike 0
 
