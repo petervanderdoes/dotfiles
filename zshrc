@@ -2,7 +2,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="avh"
 DISABLE_AUTO_UPDATE="true"
 
-plugins=(gem rbenv z gpg-agent git-flow-avh common-aliases vagrant)
+plugins=(gem z gpg-agent git-flow-avh common-aliases vagrant docker)
 
 export PATH="${HOME}/.composer/vendor/bin:/usr/local/bin:$PATH"
 
