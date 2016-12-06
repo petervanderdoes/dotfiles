@@ -2,7 +2,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="avh"
 DISABLE_AUTO_UPDATE="true"
 
-plugins=(gem z gpg-agent git-flow-avh common-aliases vagrant docker)
+plugins=(gem z gpg-agent git-flow-avh common-aliases vagrant docker go npm)
 
 export PATH="/usr/local/bin:$PATH"
 
@@ -22,7 +22,7 @@ export WP_DEVELOP_DIR=/opt/unittesting/wordpress
 export GPGKEY=29592B23
 
 #GoLang
-export GOROOT=/opt/golang/go
+export GOROOT=/usr/local/go
 export GOPATH=/d1/development/golang
 export PATH=$PATH:$GOROOT/bin
 

@@ -1,3 +1,4 @@
 alias root='sudo su -'
 alias z='nocorrect z'
 alias docker='sudo /usr/bin/docker'
+alias dquilt="quilt --quiltrc=${HOME}/.quiltrc-dpkg"
