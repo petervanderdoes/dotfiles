@@ -182,6 +182,7 @@ __git-flow-hotfix ()
                 'delete:Delete a hotfix branch.'
                 'rebase:Rebase from integration branch.'
                 'list:List all your hotfix branches. (Alias to `git flow hotfix`)'
+                'rename:Rename a hotfix branch.'
             )
             _describe -t commands 'git flow hotfix' subcommands
             _arguments \
@@ -254,6 +255,7 @@ __git-flow-feature ()
                 'rebase:Rebase from integration branch.'
                 'checkout:Checkout local feature branch.'
                 'pull:Pull changes from remote.'
+                'rename:Rename a feature branch.'
             )
             _describe -t commands 'git flow feature' subcommands
             _arguments \
@@ -349,6 +351,7 @@ __git-flow-bugfix ()
                 'rebase:Rebase from integration branch.'
                 'checkout:Checkout local bugfix branch.'
                 'pull:Pull changes from remote.'
+                'rename:Rename a bugfix branch.'
             )
             _describe -t commands 'git flow bugfix' subcommands
             _arguments \
